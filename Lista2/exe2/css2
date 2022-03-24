@@ -1,0 +1,44 @@
+table {
+    margin: auto;
+    width: 600px;
+}
+
+th {
+    color: #eee;
+    height: 50px;
+}
+
+th, td {
+    /* margin: 0; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+
+.table-header{
+    background-color: #78b200;
+}
+
+.table-content:nth-of-type(odd) { 
+    background: #eee; 
+}
+
+td:nth-child(2) {
+    color:  #0D5188;
+}
+
+
+
+td:nth-child(1),
+td:nth-child(2),
+td:nth-child(3)
+ {
+    width: 5%;
+}
+
+td:nth-child(4),
+td:nth-child(5),
+td:nth-child(6)
+ {
+    width: 15%;
+}
