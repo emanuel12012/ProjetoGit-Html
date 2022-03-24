@@ -1,15 +1,20 @@
+h1{
+    margin: auto;
+    width: 600px;
+}
+
 table {
     margin: auto;
     width: 600px;
 }
 
 th {
-    color: #eee;
+    color: rgb(255, 255, 255);
     height: 50px;
 }
-
-th, td {
-    /* margin: 0; */
+    
+th, td {s
+    /* margin: 0; */    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     text-align: left;
@@ -20,7 +25,7 @@ th, td {
 }
 
 .table-content:nth-of-type(odd) { 
-    background: #eee; 
+    background: #c3c4c2 ; 
 }
 
 td:nth-child(2) {
@@ -33,7 +38,7 @@ td:nth-child(1),
 td:nth-child(2),
 td:nth-child(3)
  {
-    width: 5%;
+    width: 15%;
 }
 
 td:nth-child(4),
