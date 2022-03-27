@@ -1,13 +1,13 @@
 .container {
     margin: auto;
-    padding: 10px;
-    border: solid 1px;
+    padding: 15px;
+    border: solid 2px;
     width: 50%;
 }
 
 .container p {
     text-align: center;
-    font-family: Arial, sans-serif, Helvetica;
+    font-family: Arial, Helvetica;
     font-size: 11px;
-    color: darkblue;
+    color: rgb(51, 1, 144);
 }
