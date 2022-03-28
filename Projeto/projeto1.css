@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+header {
+    height: 10%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #929292d7;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 70px;
+    width: 70   px;
+    margin-left: 20%;
+}
+
+.logo > h1 {
+    margin-left: 15px;
+}  
+
+
+.flex {
+    display: flex;
+    
+}
+
+.main-area {
+    height: 80%;
+}
+
+.main-menu {
+    justify-content: space-between;
+    text-decoration: none; 
+}
+
+.link {
+    margin: 0px 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5em;
+}
+
+.link:hover {
+    font-size: 1.8em;
+}
+
+aside { 
+    width: 20%;
+    flex: 0.3;
+    justify-content: right;
+    display: flex;
+    background-color: #c7c7c7;
+}
+
+.list {
+    list-style: none;
+    width: 80%;
+    font-size: 1.4em;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+    align-content: flex-start;
+    background-color: #c7c7c7;
+
+}
+
+.content-item {
+    height: 200px;
+    margin: 1%;
+    min-width: 20%;
+    flex: auto;
+    border-radius: 8px;
+    background-color: #908f81e8;
+    text-align: center;
+}
+
+.content-item:hover {
+    box-shadow: 0 0 1em #966d6d;
+}
+
+footer {
+    height: 10%;
+    margin: 0;
+    background-color: #c7c7c7;
+    text-align: center;
+    border-top-width: 1px #000 ;
+    border-style: solid;
+}
+
+.footer-text {
+    margin: 0;
+    padding: 0.5%;
+}
+
+
+
+ /* Emanuel C A Floriano BSI5 */
